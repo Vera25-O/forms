@@ -1,4 +1,4 @@
-@each $color in blue, white, green,red, pink, maroon, orange, yellow{
+@each $color in blue, white, green,red, pink{
     .#{$color}-bg {background-color: $color;}
   }
 
