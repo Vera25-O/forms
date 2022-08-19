@@ -1,0 +1,8 @@
+@each $color in blue, white, green,red, pink{
+    .#{$color}-bg {background-color: $color;}
+  }
+
+  $red-bg : red;
+p{
+    background-color: $red-bg;
+}
